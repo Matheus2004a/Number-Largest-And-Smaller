@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: grid;
+    place-content: center;
+}
+
+form{
+    display: inline-block;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 5rem 0;
+    padding: 2rem 0;
+}
+
+fieldset{
+    border: none;
+    margin: 2rem 5rem;
+}
+
+input{
+    outline: none;
+    text-indent: 2px;
+}
+
+button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 0 0.5rem;
+    background-color: #E6E6FA;
+}
