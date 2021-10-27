@@ -1,10 +1,8 @@
-<?php
-    session_start();
-    
+<?php  
     $numerosEsc = array($_POST['valor1'],$_POST['valor2'],$_POST['valor3'],$_POST['valor4'],$_POST['valor5']);
     $maiorNum = 0;
 
-    for($i = 0; $i < 5; $i++){
+    for($i = 0; $i < count($numerosEsc); $i++){
         if(empty($numerosEsc[$i])){
             echo "Digite um número";
             return;
