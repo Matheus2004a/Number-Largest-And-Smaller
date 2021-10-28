@@ -1,7 +1,3 @@
-<?php
-    session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -18,19 +14,19 @@
         <form action="Calc-Maior-Menor.php" method="post">
             <h3>Descubra o maior e menor número</h3>
             <fieldset>
-                Digite o 1º número: <input type="number" name="valor1" required>
+                Digite o 1º número: <input type="number" name="valor1" autofocus>
             </fieldset>
             <fieldset>
-                Digite o 2º número: <input type="number" name="valor2" required>
+                Digite o 2º número: <input type="number" name="valor2">
             </fieldset>
             <fieldset>
-                Digite o 3º número: <input type="number" name="valor3" required>
+                Digite o 3º número: <input type="number" name="valor3">
             </fieldset>
             <fieldset>
-                Digite o 4º número: <input type="number" name="valor4" required>
+                Digite o 4º número: <input type="number" name="valor4">
             </fieldset>
             <fieldset>
-                Digite o 5º número: <input type="number" name="valor5" required>
+                Digite o 5º número: <input type="number" name="valor5">
             </fieldset>
             <fieldset>
                 <button type="submit">Enviar</button>

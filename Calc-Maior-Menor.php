@@ -5,7 +5,6 @@
     for($i = 0; $i < count($numerosEsc); $i++){
         if(empty($numerosEsc[$i])){
             echo "Digite um número";
-            return;
         }
         if($numerosEsc[$i] >= $maiorNum){
             $maiorNum = $numerosEsc[$i];
