@@ -3,4 +3,4 @@
 Identifying the largest and smaller number typed in all fields with use arrays, as also realizing simple validation of empty field.
 
 ## Result
-<img src="">
+<img src="Number-Largest-And-Smaller.gif">
